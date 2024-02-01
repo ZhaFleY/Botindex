@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин товаров</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #2e3a6a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1c2550;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="redirectToProducts()">Товары</button>
+
+    <script>
+        function redirectToProducts() {
+            // Здесь можно добавить код для перехода на страницу с товарами
+            alert("Переход на страницу с товарами!");
+        }
+    </script>
+</body>
+</html>
